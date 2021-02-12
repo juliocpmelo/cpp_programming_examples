@@ -8,7 +8,7 @@ Testado no windows 10 (nao testei em outras versoes)
 2. Baixe os binários da SFML do [windows](https://www.sfml-dev.org/files/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit.zip)
   1. Descompacte os binários em algum diretório (de preferencia em algum que __não precise__ de permissão de administrador)
 3. Configure no makefile o local dos binários e includes da SFML que voce baixou
-  - abra um terminal, navegue até o local onde o projeto foi baixado e execute o comando: ```mingw32-make.exe executavel```
-  - para rodar o programa você precisa ir no diretório (usando o explorer) e dar dois clicks no executável gerado.
+  1. abra um terminal, navegue até o local onde o projeto foi baixado e execute o comando: ```mingw32-make.exe executavel```
+  2. para rodar o programa você precisa ir no diretório (usando o explorer) e dar dois clicks no executável gerado.
     
   
