@@ -1,4 +1,5 @@
-No windows 10 (nao testei em outras versoes)
+Testado no windows 10 (nao testei em outras versoes)
+
 1.Instale o mingw usado pela SFML (https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/mingw-builds/7.3.0/threads-posix/dwarf/i686-7.3.0-release-posix-dwarf-rt_v5-rev0.7z/download)
   a. Como o esse compilador não é instalado no windows, vc pode deixá-lo em qualquer lugar do sistema, no meu caso adicionei em C:/Program Files (x86)
   b. Adicione o caminho <local de instalação do mingw>\bin\ na sua variável de ambiente __PATH__
