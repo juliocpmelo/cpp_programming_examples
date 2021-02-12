@@ -5,10 +5,8 @@ Testado no windows 10 (nao testei em outras versoes)
   2. Adicione o caminho ```<local de instalação do mingw>\bin\``` na sua variável de ambiente __PATH__
   3. Abra um powershell e tente executar o comando: ```g++ -v```
   4. Se o compilador tiver sido instalado corretamente a saída deve mostrar a versão do gcc instalada, tem que ser 7.3.0 (que é o g++ baixado no link do passo 1).
-
 2. Baixe os binários da SFML do windows https://www.sfml-dev.org/files/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit.zip
-  - Descompacte os binários em algum diretório (de preferencia em algum que __não precise__ de permissão de administrador)
-
+  1. Descompacte os binários em algum diretório (de preferencia em algum que __não precise__ de permissão de administrador)
 3. Configure no makefile o local dos binários e includes da SFML que voce baixou
   - abra um terminal, navegue até o local onde o projeto foi baixado e execute o comando: ```mingw32-make.exe executavel```
   - para rodar o programa você precisa ir no diretório (usando o explorer) e dar dois clicks no executável gerado.
