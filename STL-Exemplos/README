@@ -1,0 +1,4 @@
+3 formas de usar esses exemplos:
+1 - Modifique no .replit para executar o conjunto de exemplo que desejar, depois clique em "run/play"
+2 - use a aba "shell" do replit e digite: make vector (ou make list, make map, make algorithm)
+3 - copie os exemplos e compile/execute no ambiente que preferir
