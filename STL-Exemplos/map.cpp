@@ -7,7 +7,7 @@
 using namespace std;
 
 void simples(){
-	cout<<"Simples!!!"<<endl;
+	
 	/*inicialização inline*/
 	map<const int,string> m = {{1,"julio"},{2,"isaac"}, {3, "renan"}};
 	
