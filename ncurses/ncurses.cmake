@@ -1,3 +1,4 @@
+#ncurses as external project so we can build it with cmake
 include(ExternalProject)
 
 set(NCURSES_DIR ${CMAKE_CURRENT_SOURCE_DIR}/ncurses-6.3)
@@ -23,4 +24,4 @@ add_dependencies(ncurses libncurses)
 
 set_target_properties(ncurses PROPERTIES IMPORTED_LOCATION ${NCURSES_STATIC_LIB})
 set_target_properties(ncurses PROPERTIES INTERFACE_INCLUDE_DIRECTORIES ${NCURSES_INCLUDES})
-set(NCURSES_INCLUDES ${NCURSES_INCLUDES})
+set(NCURSES_INCLUDES ${NCURSES_INCLUDES}) #had to do this so the included project has better access to the includes, didn't like the get property syntax
