@@ -12,6 +12,6 @@ just do the following commands on the terminal, in the folder this README is loc
 ## Notes about replit
 
 Since ncurses is built along with this project, replit doesn't have enough CPU
-to handle the build process. There, maybe you could just install the pre built
-binaries since it's a linux platform.
+to properly handle the build process, so it could take a anoying long time to build. 
+There, maybe, we could just install the pre built binaries since it's a linux platform.
   
