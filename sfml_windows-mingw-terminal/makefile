@@ -10,7 +10,7 @@ $(SFML_EXT_DLLS:=.dll) : % : $(SFML_PATH)\bin\\%
 	copy $< .
 	
 main.o: %.o : %.cpp
-	g++ -c $< -I$(SFML_SRC_PATH)\include
+	g++ -c $< -I$(SFML_PATH)\include
 
 executavel: main.o $(SFML_EXT_DLLS:=.dll) $(SFML_DLLS:=.dll)
 	g++ -o executavel main.o -I$(SFML_PATH)\include -L$(SFML_PATH)\bin -lsfml-window-d-2 -lsfml-audio-d-2 -lsfml-system-d-2 -lsfml-graphics-d-2
