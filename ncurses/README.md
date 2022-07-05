@@ -9,6 +9,16 @@ just do the following commands on the terminal, in the folder this README is loc
 3. `cmake --build .`
 4. Executable name is ncurses_test, just run it and have fun
 
+## Spaces are bad ;<
+
+Since ncurses is build with autotools you cant have spaces on the folder that contains the project.
+If you use spaces on the folder configuring ncurses will cause the following error:
+
+`configure: error: cannot find install-sh or install.sh <folders with spaces>` 
+
+Which means you are using spaces in some of the folders, just move them to <folders_with_spaces> using underline
+or remove the spaces if you like.
+
 ## Notes about replit
 
 Since ncurses is built along with this project, replit doesn't have enough CPU
