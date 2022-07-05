@@ -11,12 +11,13 @@ just do the following commands on the terminal, in the folder this README is loc
 
 ## Spaces are bad ;<
 
-Since ncurses is build with autotools you cant have spaces on the folder that contains the project.
+Since ncurses is built with autotools you cant have spaces on the folder that contains the project.
 If you use spaces on the folder configuring ncurses will cause the following error:
 
 `configure: error: cannot find install-sh or install.sh <folders with spaces>` 
 
-Which means you are using spaces in some of the folders, just move them from `<folders with spaces>` to `<folders_with_underscores>` or remove the spaces if you like/can.
+Which means you are using spaces in some of the folders, just move them from `<folders with spaces>` to `<folders_with_underscores>` 
+or remove the spaces any other way you like/can.
 
 ## Notes about replit
 
