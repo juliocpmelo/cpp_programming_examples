@@ -16,8 +16,7 @@ If you use spaces on the folder configuring ncurses will cause the following err
 
 `configure: error: cannot find install-sh or install.sh <folders with spaces>` 
 
-Which means you are using spaces in some of the folders, just move them to <folders_with_spaces> using underline
-or remove the spaces if you like.
+Which means you are using spaces in some of the folders, just move them from <folders with spaces> to <folders_with_underscores> or remove the spaces if you like/can.
 
 ## Notes about replit
 
