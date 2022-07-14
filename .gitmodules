@@ -1,0 +1,3 @@
+[submodule "sfml-cmake-example"]
+	path = sfml-cmake-example
+	url = https://github.com/juliocpmelo/sfml-cmake-example.git
