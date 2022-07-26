@@ -1,5 +1,5 @@
 #include <iostream>
-#include <ncurses.h>
+#include <ncurses/ncurses.h>
 #include <vector>
 #include <thread>  
 #include <chrono> 
